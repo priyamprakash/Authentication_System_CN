@@ -52,9 +52,12 @@ Authentication system
     |
     |              |--->_header.ejs
     |              |--->_footer.ejs
+    |              |--->change_password.ejs
+    |              |--->set_password.ejs
     |              |--->forget_password.ejs
     |              |--->home.ejs
     |--->views---->|--->layout.ejs
+    |              |--->profile.ejs
     |              |--->sign_in.ejs
     |              |--->sign_up.ejs
     |
