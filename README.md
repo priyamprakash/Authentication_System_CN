@@ -45,6 +45,7 @@ Authentication system
     |--->controllers-->|-->home_controller.js
     |                  |-->user_controller.js
     |
+    |--->mailer---->|-->resetpasswordmailer.js
     |               
     |--->models---->|-->user.js
     |
