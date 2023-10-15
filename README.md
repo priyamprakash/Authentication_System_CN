@@ -26,6 +26,47 @@ After reaching the project directory you have to run the following the command.
 ```
 
      
+PROJECT STRUCTURE
+```
+Authentication system
+    |
+    |               |--->css
+    |--->assets---->|--->images
+    |               |---> js
+    |
+    |               |--->environment.js
+    |--->config---->|--->mongoose.js
+    |               |--->passport-local-Stradegy.js
+    |
+    |                  
+    |--->controllers-->|-->home_controller.js
+    |                  |-->user_controller.js
+    |
+    |               
+    |--->models---->|-->user.js
+    |
+    |              
+    |               
+    |--->routes---->|-->index.js
+    |               |-->user.js
+    |
+    |              |--->_header.ejs
+    |              |--->_footer.ejs
+    |              |--->forget_password.ejs
+    |              |--->home.ejs
+    |--->views---->|--->layout.ejs
+    |              |--->sign_in.ejs
+    |              |--->sign_up.ejs
+    |
+    |-->node_modules
+    |-->.gitignore
+    |--> index.js
+    |--> package-lock.json
+    |-->package.json
+    
+    ````
+
+```
 
      
      
