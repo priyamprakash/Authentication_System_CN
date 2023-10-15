@@ -47,8 +47,10 @@ app.use(session({
     },
     store: MongoStore.create({
 
-        mongoUrl: 'mongodb+srv://raj:raj0811@cluster0.xpjnzpo.mongodb.net/?retryWrites=true&w=majority',
+        mongoUrl: 'mongodb+srv://priyamprakash99:E85XvBGlamDcmdii@cluster0.b08uskt.mongodb.net/?retryWrites=true&w=majority',
         autoRemove: 'disabled'
+        // mongoUrl: 'mongodb://127.0.0.1/authentication_system_development',
+        // collectionName: 'sessions'
 
     },
     function(err){
