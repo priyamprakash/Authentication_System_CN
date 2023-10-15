@@ -7,15 +7,19 @@ The Authentication System using Node.js is a robust and user-friendly web applic
 PROJECT SETUP:
 
 1.Clone this project
-
-     git clone https://github.com/priyamprakash/Authentication_System_CN
-     
 2. Start by installing npm if you don't have it already.
 Navigate to Project Directory.
 After reaching the project directory you have to run the following the command.
 
+     git clone https://github.com/priyamprakash/Authentication_System_CN
+     
      npm install 
-     npm start || nodemon index.js
+     
+     npm start 
+     
+
+
+     
 
      
      
