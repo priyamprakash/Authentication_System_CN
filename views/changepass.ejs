@@ -18,11 +18,17 @@
 
                 <form action="/users/update/<%= user.id %>" method="post">
                 
-                    <span>Enter your Email</span>
+                    <div class="form-title">
+                    <p>Enter your Email </p>
+                   </div>
                      <input type="email" name="email"  value="<%= user.email %>">
+                     <br>
                      <input type="password" name="opass" placeholder="Old Password">
+                     <br>
                      <input type="password" name="npass" placeholder="New Password">
+                     <br>
                      <input type="submit" id="change-btn" value="Change">
+                     <br>
                      <a href="/users/forget-password">Forget password</a>
                  </form>
 

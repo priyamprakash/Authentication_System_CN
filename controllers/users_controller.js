@@ -98,7 +98,7 @@ module.exports.destroySession = function (req, res) {
         }
 });
     console.log("logged out");
-    req.flash('success','Logged-in Successfully');
+    req.flash('success','Logged-out Successfully');
     res.redirect('/')
 
 }
@@ -130,7 +130,6 @@ module.exports.updatePassword = async function(req,res){
 
                     let newpass= await bcrypt.hash(req.body.npass,10);
                     console.log(newpass);
-                    console.log("pppp");
                     User.findByIdAndUpdate(req.params.id,{password: newpass },function(err,user){
                         return res.redirect('back')
                     })
