@@ -1,7 +1,9 @@
 # Authentication_System_CN
 Authentication System | Node JS | Passport
 
-Screenshots
+DESCRIPTION
+The Authentication System using Node.js is a robust and user-friendly web application designed to enhance user security and convenience. This application provides a seamless experience, offering features such as user registration and login using email and password or Google account integration. Once logged in, users can access their account information and easily change their passwords for added security. The "Forgot Password" feature ensures users can recover their accounts if they forget their login credentials. This system follows the Model-View-Controller (MVC) architectural pattern, guaranteeing maintainability and scalability. Leveraging MongoDB for data storage, the application ensures data integrity and persistence. It stands as a testament to the power of Node.js in developing secure, feature-rich web applications.
+
 
 HOME
 ![Screenshot (442)](https://github.com/priyamprakash/Authentication_System_CN/assets/65361533/17ef9e99-3bd2-41e7-92bc-f3f433899401)
