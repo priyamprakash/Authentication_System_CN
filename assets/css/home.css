@@ -3,17 +3,18 @@ p,h1{
     padding: 0%;
 }
 body{
-    background-image: url('/images/bg2.jpg');
-    background-size: contain;
+    background-image: url('/images/home_bg.jpg');
+    background-size: contain; 
 }
 
 .container{
     display: flex;
     flex-direction: row;
-    /* background-color: brown; */
     height: 100vh;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
+
 }
+
 .main{
     border: 2px solid black;
     display: flex;
@@ -33,38 +34,52 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 .side{
     border: 2px solid red;
     width: 17%;
 }
 .user-c{
-    border: 2px solid wheat;
+    border: 0px solid wheat;
     display: flex;
-    padding: 0;
-    /* margin: 0%; */
+    padding: 1%;
+    margin: 4%;
 }
-.data{
-    /* background-color: aquamarine; */
-    width: 100%;
+.data {
+    background-color: rgba(106, 72, 139, 0.6);/* 60% transparent purple */
+    width: 90%;
+    height: 70%;
+    border-radius: 24px;
+
 }
+
 .data h1{
     color: white;
     padding: 1%;
+    margin-left: 4%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 .user-info{
     color: white;
+    padding: 0.5%;
+    border: 0px solid #f6ff00;
     padding: 1%;
-    /* border: 2px solid wheat; */
+    margin: 4%;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     
 }
 
 .cp-div{
-    background-color: antiquewhite;
+    background-color: #f6ff00;
+    text-align: center;
     padding: 0.5%;
-    width: 12%;
-    margin-left: 5%;
+    width: 15%;
+    margin: 5%;
+    border-radius: 12px;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .cp-div a{
     color: #1D0C5A;

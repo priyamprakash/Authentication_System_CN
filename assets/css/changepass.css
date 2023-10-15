@@ -39,12 +39,10 @@ body{
     padding: 1%;
 }
 #change-btn{
+    background-color: #46285A(255, 255, 0, 1);
     background-color: grey;
     width: 40%;
-    color: wheat
-}
-.form-conter form input{
-    width: 80%;
+    color: wheat;
     margin: 0.7%;
     height: 5vh;
 }

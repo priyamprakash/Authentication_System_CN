@@ -18,9 +18,10 @@
         <div class="data">
             <% if(locals.user){ %>
 
-                <h1>Hey <%= user.name %> Welcome to our site</h1>
+                <h1>Hey,<br> <%= user.name %> !!<br> </h1>
+                <hr>
                 <div class="user-info">
-                    <h2>User info</h2>
+                    <h2>Account info</h2>
                     <p>Email: <%= user.email %></p>
                     <p>Name: <%= user.name %></p>
                     <p><p>Password: **********</p></p>
@@ -40,7 +41,7 @@
     <script>
         $(document).ready(function (){
             console.log("home");
-            $('.home-h').addClass("active")        })
+            $('.home-h').addClass("active")})
     </script>
 </body>
 </html>
