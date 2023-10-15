@@ -8,9 +8,9 @@ PROJECT SETUP:
 
 1.Clone this project
      
-     '''
+    
      git clone https://github.com/priyamprakash/Authentication_System_CN
-     '''
+     
 
 2. Start by installing npm if you don't have it already.
 Navigate to Project Directory.
