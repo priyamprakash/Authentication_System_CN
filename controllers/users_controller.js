@@ -4,6 +4,7 @@ const resetMailer = require('../mailer/resetpasswordmailer');
 const bcrypt = require('bcrypt'); 
 const sendOtop=require('../mailer/resetpasswordmailer')
 
+// Profile
 
 module.exports.profile = function(req, res) {
     return res.render('profile', {
@@ -12,7 +13,7 @@ module.exports.profile = function(req, res) {
 }
 
 
-
+// Signup
 module.exports.signup = function(req,res){
 
     if(req.isAuthenticated()){
@@ -26,6 +27,7 @@ module.exports.signup = function(req,res){
     })
 }
 
+// Login
 module.exports.signin = function(req,res){
 
     if(req.isAuthenticated()){
@@ -90,7 +92,7 @@ module.exports.createSession = function(req,res){
     return res.redirect('/');
 }
 
-
+// Log out
 module.exports.destroySession = function (req, res) {
     req.logout(function (err) {
         if (err) {
@@ -103,12 +105,14 @@ module.exports.destroySession = function (req, res) {
 
 }
 
+// Change Password
 module.exports.changePassword = function(req,res){
     return res.render('changepass',{
         title: 'Change Password'
     })
 }
 
+// Update Password
 module.exports.updatePassword = async function(req,res){
 
     try{
