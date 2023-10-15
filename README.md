@@ -36,7 +36,10 @@ Authentication system
     |
     |               |--->environment.js
     |--->config---->|--->mongoose.js
-    |               |--->passport-local-Stradegy.js
+    |               |--->middleware.js
+    |               |--->node-mailer.js
+    |               |--->passport-google-oauth2-strategy.js
+    |               |--->passport-local-strategy.js
     |
     |                  
     |--->controllers-->|-->home_controller.js
