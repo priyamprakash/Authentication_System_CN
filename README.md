@@ -13,4 +13,7 @@ SIGN UP
 CHANGE PASSWORD
 
 ![Screenshot (443)](https://github.com/priyamprakash/Authentication_System_CN/assets/65361533/2b84d8f0-eadc-4a9a-b41a-3114d6868626)
+
+FORGOT PASSWORD
+
 ![Screenshot (444)](https://github.com/priyamprakash/Authentication_System_CN/assets/65361533/5893fcd1-034d-475a-829e-fcab2f09c8b5)
